@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Rubik', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 48%;
+    background-image: url('images/pattern-bg-desktop.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header h1{
+    font-weight: 500;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem;
+}
+.header .search-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-btn input{
+    width: 30rem;
+    height: 3rem;
+    font-size: 15px;
+    padding: 9px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px 0 0 10px;  
+}
+.search-btn input:hover{
+    cursor: pointer;
+}
+.search-btn button{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 2rem;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: hsl(0, 0%, 17%);
+}
+.search-btn button:hover{
+    cursor: pointer;
+}
+.content{
+    width: 70%;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    height: 130px;
+    top: 26%;
+    margin-left: 12rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px hsl(0, 0%, 59%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1000;
+}
+.content div{
+  width: 15%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.content div p{
+  position: absolute;
+  top: 25%;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: hsl(0, 0%, 59%);
+  font-weight: bold;
+}
+.content div h6{
+  font-size: 18px;
+  position: absolute;
+  top: 40%;
+  font-weight: 600;
+}
+hr{
+    height: 10vh;
+    width:.08vw;
+    border-width:0;
+    margin-left: 12rem;
+    background-color:hsl(0, 2%, 82%);
+}
+.map-display{
+    background-color: black;
+    margin-top: -70px;
+    min-height: 79vh;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
