@@ -317,8 +317,7 @@ const renderCountry = country => {
                 }).join("")}    
                 </div>`
                 }
-            </div>`;
-       
+            </div>`; 
 }
 
 
